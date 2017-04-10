@@ -1,0 +1,29 @@
+.hero {
+  height: 1024px;
+  background-image: url('/assets/images/pexels-photo-332046.jpeg');
+  background-size: cover;
+  background-position: center;
+}
+
+.logo {
+  background-image: url('/assets/images/logo.svg');
+  background-size: 250px auto;
+  background-repeat: no-repeat;
+  background-position: top center;
+  height: 240px;
+  width: 240px;
+  margin-left: 10%;
+  margin-top: -10px;
+}
+
+.hero-text p {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 0px 1px 1px #000;
+}
+
+.hero-text {
+  position: relative;
+  top: 30%;
+  padding-left: 10%;
+}

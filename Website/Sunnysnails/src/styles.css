@@ -9,7 +9,53 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
   font-family: 'SanFranciscoText-Semibold';
   src: url('/assets/fonts/SanFranciscoText-Semibold.otf') format('otf')
 }
+@font-face {
+  font-family: 'SanFranciscoText-Light';
+  src: url('/assets/fonts/SanFranciscoText-Light.otf') format('otf')
+}
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
 
 body {
   font-family: 'SanFranciscoText-Semibold';
+  width: 100%;
+}
+
+button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+.call-to-action {
+  margin-top: 40px;
+  padding: 15px 50px;
+  border: 1px solid #EEA2FD;
+  border-radius: 15px;
+  background-color: transparent;
+  font-family: 'SanFranciscoText-Semibold';
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 3px;
+}
+
+carousel {
+  z-index: 1;
+}
+
+carousel .carousel-control.left {
+  background-image: none;
+}
+
+carousel .carousel-control.right {
+  background-image: none;
+}
+
+#map {
+  width: 100%;
+  height: 450px;
 }
