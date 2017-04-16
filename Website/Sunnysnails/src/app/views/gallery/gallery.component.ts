@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./gallery.component.css']
 })
 export class GalleryComponent implements OnInit {
+  public first: string = "painting-fingernails-nail-polish-hearts-valentine-37553.jpeg";
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
   }
-
 }

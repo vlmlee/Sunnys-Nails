@@ -1,3 +1,16 @@
 <section class="gallery" id="gallery">
-  <app-carousel></app-carousel>
+  <h1>Gallery</h1>
+  <section class="images" *ngFor="let image of images">
+    <img class="first-image" src="/assets/images/{{first}}" />
+    <img class="second-image" [src]="second" />
+    <img class="third-image" [src]="third" />
+    <img class="fourth-image" [src]="fourth" />
+  </section>
+  <section class="pagination">
+    <ul>
+      <li><a href="">1</a></li>
+      <li><a href="">2</a></li>
+      <li><a href="">3</a></li>
+    </ul>
+  </section>
 </section>

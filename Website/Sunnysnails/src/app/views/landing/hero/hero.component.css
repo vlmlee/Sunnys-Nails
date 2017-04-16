@@ -7,13 +7,12 @@
 
 .logo {
   background-image: url('/assets/images/logo.svg');
-  background-size: 250px auto;
+  background-size: 100px auto;
   background-repeat: no-repeat;
   background-position: top center;
   height: 240px;
   width: 240px;
   margin-left: 10%;
-  margin-top: -10px;
 }
 
 .hero-text p {

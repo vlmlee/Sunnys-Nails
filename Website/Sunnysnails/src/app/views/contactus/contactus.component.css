@@ -1,4 +1,77 @@
-.contactus {
-  height: 450px;
-  background-color: indianred;
+.contact-us {
+  height: 500px;
+  width: 100%;
+  background-color: #646464;
+  color: #fff;
+}
+
+.contact-form-section, .contact-info {
+  display: inline-block;
+}
+
+.contact-form-section {
+  width: 633px;
+  margin: 0 10%;
+  font-family: 'SanFranciscoText-Light';
+}
+
+.contact-form-section h1 {
+  font-size: 36px;
+  margin: 42px 0 20px 0;
+}
+
+.contact-form input {
+  display: block;
+  clear: both;
+}
+
+input[type="text"] {
+  width: 633px;
+  height: 50px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  border: 1px #FBDAFF solid;
+  box-shadow: 0px 0px 0px 1px #FBDAFF,
+        1px 1px 1px 0 rgba(0,0,0,0.4);
+  padding-left: 10px;
+  color: #333;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+input[type="submit"] {
+  float: right;
+  color: #333;
+  width: 200px;
+  height: 50px;
+  margin-top: 20px;
+  background: #fff;
+  background-color:#FBDAFF;
+  border-radius: 5px;
+  font-family: 'SanFranciscoText-Semibold';
+  letter-spacing: 3px;
+}
+
+.message {
+  width: 633px;
+  height: 167px;
+  border-radius: 5px;
+  border: 1px #FBDAFF solid;
+  box-shadow: 0px 0px 0px 1px #FBDAFF,
+        1px 1px 1px 0 rgba(0,0,0,0.4);
+  padding: 10px;
+  color: #333;
+}
+
+.contact-info {
+  display: block;
+  width: 633px;
+  float: right;
+  margin: 42px 0 0 0;
+}
+
+.copyright {
 }

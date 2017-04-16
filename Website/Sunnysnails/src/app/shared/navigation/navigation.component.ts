@@ -20,6 +20,7 @@ export class NavigationComponent implements OnInit {
         }
     };
     PageScrollConfig.defaultInterruptible = false;
+    PageScrollConfig.defaultDuration = 1300;
    }
 
   ngOnInit() {
