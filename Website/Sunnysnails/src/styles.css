@@ -19,7 +19,6 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 }
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
-
 body {
   font-family: 'SanFranciscoText-Semibold';
   width: 100%;
@@ -76,5 +75,5 @@ carousel .carousel-control.right {
 
 #map {
   width: 100%;
-  height: 400px;
+  height: 440px;
 }

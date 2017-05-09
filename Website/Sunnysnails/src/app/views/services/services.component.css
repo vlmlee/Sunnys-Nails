@@ -1,4 +1,11 @@
 .services {
   height: 900px;
-  background-color: lightcyan;
+  background-image: url('/assets/images/Union.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services h1 {
+  font-size: 64px;
 }

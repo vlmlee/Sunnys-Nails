@@ -1,4 +1,5 @@
 .gallery {
   height: 900px;
-  background-color: grey;
+  background-image: url('/assets/images/gallery-background.svg');
+  background-size: cover;
 }

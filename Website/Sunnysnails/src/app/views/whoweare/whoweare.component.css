@@ -1,4 +1,17 @@
 .whoweare {
   height: 900px;
   background-color: white;
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.protrait {
+  display: inline-block;
+  width: 45%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 48px;
 }
